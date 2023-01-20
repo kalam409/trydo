@@ -34,7 +34,7 @@ const About = () => {
                 <p>{about.desc}</p>
               </div>
               <div>
-                <section className="about__list">
+                <section className="about__list mt-5">
                   {subAbouts.map((subAbout, i) => (
                     <div key={i}>
                       <h3>{subAbout.title}</h3>
