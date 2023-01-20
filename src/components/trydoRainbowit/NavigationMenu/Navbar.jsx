@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="navigationMenu">
         <div className="logo">
           <img
-            src="http://trydo.rainbowit.net/assets/images/logo/logo.png"
+            src="https://www.linkpicture.com/q/logo_274.png"
             alt=""
             srcset=""
           />
