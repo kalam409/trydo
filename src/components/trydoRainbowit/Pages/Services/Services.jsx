@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import OurWorks from "../../OurWorks/OurWorks";
 import "./Services.css";
 const Services = () => {
   const [services, setServices] = useState([
@@ -65,6 +66,7 @@ const Services = () => {
           </div>
         </Link>
       </div>
+      <OurWorks />
     </div>
   );
 };

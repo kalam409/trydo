@@ -7,6 +7,7 @@ import Services from "./components/trydoRainbowit/Pages/Services/Services";
 import About from "./components/trydoRainbowit/Pages/About/About";
 import Blogs from "./components/trydoRainbowit/Pages/Blogs/Blogs";
 import Contact from "./components/trydoRainbowit/Pages/Contact/Contact";
+import PortfolioDetails from "./components/trydoRainbowit/OurWorks/Carousel/PortfolioDetails/PortfolioDetails";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/protfolio-details" element={<PortfolioDetails />}/>
         </Routes>
       </div>
     </>
